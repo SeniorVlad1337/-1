@@ -1,0 +1,338 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+header{
+    background: url(../img/background.jpg) no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 970px;
+}
+
+header .wrapper{
+    width: 1676px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 47px;
+   
+}
+
+header .propper{
+    width: 1676px;
+    margin: 0 auto;
+}
+
+header .wrapper nav a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-right: 45px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+header .wrapper nav a:last-child{
+    margin-right: 0;
+}
+
+
+header .wrapper nav a:hover{
+     color: rgb(34, 203, 255);
+}
+
+
+
+.propper .container{
+    width: 60%;
+    margin-top: 150px;
+   
+}
+
+.Textone{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+
+.Texttwo{
+    width: 50%;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    line-height: 45px;
+}
+
+.wrapper .btn{
+    padding: 25px 80px;
+    border: none;
+    background-color:#DD9428;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 35px;
+    margin-right: 60px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.wrapper .btn:hover{
+    box-shadow: 6px 6px 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper:nth-child(2){
+    justify-content: start;
+    
+}
+
+
+.Textthree{
+    margin-left: 25px;
+    width: 104px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 16px;
+    color:#A1A8B6;
+    line-height: 26px;
+}
+
+
+ .wrapper:nth-child(3){
+    justify-content: start;
+
+}
+
+.Textfour{
+    margin-top: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white; 
+}
+
+.social svg{
+    margin-right: 44px;
+    
+}
+
+.auf{
+    margin-top: 160px;
+    margin-left: 260px;
+    display: flex;
+
+}
+
+.group{
+    margin-left: 100px;
+    
+    
+}
+
+.Textfive{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 42px;
+    width: 75%;
+}
+
+.Textsix{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 65%;
+    line-height: 33px;
+}
+
+.group .btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #DD9428;
+    background-color: transparent;
+    font-size: 18px;
+    border-color: #DD9428;
+    border-radius: 35px;
+    padding: 27px 65px;
+    margin-top: 35px;
+    border-width: 2px;
+    transition: 400ms;
+    cursor: pointer;
+
+}
+
+.group .btn:hover{
+    color: black;
+    background-color:#DD9428; ;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.mainform{
+    background: url(../img/form1.jpg) no-repeat;
+    width: 100%;
+    height: 518px;
+    margin-top: 220px;
+}
+
+
+.Textseven{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    
+}
+
+.Texteight{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    line-height: 33px;
+    padding-top: 25px;
+    
+}
+
+
+.vvod{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:  #B7C3CC;
+    padding: 25px 20px;
+    border-color: #CED8DF ;
+    border: 2px solid #CED8DF;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.vvodtwo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:  #B7C3CC;
+    padding: 25px 20px;
+    border-color: #CED8DF ;
+    border: 2px solid #CED8DF;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.mainform .btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#DD9428;
+    border: none;
+    padding: 25px 46px;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.mainform .btn:hover{
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Textnine{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    width: 65%;
+    padding-left: 60px;
+}
+
+.colortext{
+    color: #DD9428;
+}
+/* Изменения */
+.mainform .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 14%;
+    padding-top: 5%;
+}
+.mainform-title{
+    width: 25%;
+    margin-right: 50px;
+}
+form{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form input[type=text]{
+    margin-bottom: 20px;
+}
+form p{
+    text-align: center;
+    
+}
+/* Конец изменений */
+
+.auf .container:last-child{
+    margin-right: 260px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.auf .container .group{
+    margin-left: 0;
+
+}
+
+
+footer{
+    background: #F8F8F8;
+
+}
+
+footer .wrapper{
+    width: 1676px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    height: 188px;
+    
+}
+
+.politika{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #90A4B2;
+    width: 10%;
+    line-height: 20px;
+    padding-right: 100px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.politika:hover{
+    color: black;
+}
+
+.soglashenie{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #90A4B2;
+    width: 18%;
+    line-height: 20px;
+    padding-right: 300px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.soglashenie:hover{
+    color: black;
+}
+
